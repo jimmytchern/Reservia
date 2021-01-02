@@ -5,39 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Reservia</title>
+    <script
+      src="https://kit.fontawesome.com/6451502108.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
+  <body>
+    <!-- Header  -->
+    <header class="header">
+      <img class="Logo" src="logo/Reservia@3x.png" alt="Reservia" />
+      <nav class="Menu">
+        <a class="MenuHostingActivity" href="#Hosting" data-active="true"
+          >Hebergement</a
+        >
+        <a class="MenuHostingActivity" href="#Activity" data-active="false"
+          >Activite</a
+        >
+      </nav>
+      <a class="MenuSign" href="#">S'inscrire</a>
+    </header>
+    <!-- Header  -->
 
-  <!-- Header  -->
-  <header class="header">
-    <img class="Logo" <img src="logo/Reservia@3x.png" alt="logodusite" />
-    <nav class="Menu">
-      <a class="Menuhebergement" href="Hebergement">Hebergement</a>
-      <a class="Menuactivite" href="Activite">Activite</a>
-      <a class="Menuinscription" href="S'inscrire">S'inscrire</a>
-    </nav>
-  </header>
-  <!-- Header  -->
-  <main class="main">
-    <!--SectionRecherche-->
-    <section class="Recherche">
-      <header class="infosearch">
-        <h1 class="headerinfosearch">
-          Trouver votre hebergement pour des vacances de reve
-        </h1>
-        <p class="Soustitreheaderinfosearch">
-          En plein centre ville ou en pleine nature
-        </p>
-      </header>
-    </section>
+    <!--Main -->
+    <main class="main">
+      <!--SectionSearch-->
+      <section class="Search">
+        <header class="SearchHeader">
+          <h1 class="SearchHeaderTitle">
+            Trouver votre hebergement pour des vacances de reve
+          </h1>
+          <p class="SearchHeaderSubtitle">
+            En plein centre ville ou en pleine nature
+          </p>
+        </header>
+        <form class="SearchForm" action="" method="GET">
+          <span class="SearchFormWrapIcon">
+            <i class="fas fa-map-marker-alt SearchFormWrapIconIcon"></i>
+          </span>
+          <input
+            class="SearchFormInput"
+            type="search"
+            placeholder="Marseille, France"
+            size="1"
+          />
+          <button class="SearchFormSubmitInput">
+            <span class="SearchFormSubmitInputText">Rechercher</span>
+            <i class="SearchFormSubmitInputIcon fas fa-search"></i>
+          </button>
+        </form>
+        <div class="SearchFilters">
+          <h2 class="SearchFilterTitle">Filtres</h2>
+          <div class="SearchFiltersFilter">
+            <div class="SearchFiltersFilterWrapIcon">
+              <i
+                class="fas fa-money-bill-wave SearchFiltersFilterWrapIconGlobal"
+              ></i>
+            </div>
+            <span class="SearchFiltersFilterTitle">Économique</span>
+          </div>
+          <div class="SearchFiltersFilter">
+            <div class="SearchFiltersFilterWrapIcon">
+              <i class="fas fa-child SearchFiltersFilterWrapIconGlobal"></i>
+            </div>
+            <span class="SearchFiltersFilterTitle">Familial</span>
+          </div>
+          <div class="SearchFiltersFilter">
+            <div class="SearchFiltersFilterWrapIcon">
+              <i class="fas fa-heart SearchFiltersFilterWrapIconGlobal"></i>
+            </div>
+            <span class="SearchFiltersFilterTitle">Romantique</span>
+          </div>
+          <div class="SearchFiltersFilter">
+            <div class="SearchFiltersFilterWrapIcon">
+              <i class="fas fa-dog SearchFiltersFilterWrapIconGlobal"></i>
+            </div>
+            <span class="SearchFiltersFilterTitle">Animaux autorisés</span>
+          </div>
+        </div>
+        <div class="SearchResult">
+          <div class="SearchResultWrapIcon">
+            <i class="fas fa-info SearchResultWrapIconGlobal"></i>
+          </div>
+          <p class="SearchResultText">
+            Plus de 500 logements sont disponibles dans cette ville
+          </p>
+        </div>
+      </section>
 
-    <!--SectionRecherche-->
-  </main>
+      <!--SectionSearch-->
+    </main>
 
-  <!--Main (Plus gros de la page )-->
+    <!-- Main (Plus gros de la page ) -->
 
-  <!-- Main (Plus gros de la page ) -->
+    <!-- Footer -->
 
-  <!-- Footer -->
-
-  <!-- Footer -->
+    <!-- Footer -->
+  </body>
 </html>
